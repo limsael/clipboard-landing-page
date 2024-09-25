@@ -1,0 +1,41 @@
+.functionnalities {
+  margin-block-start: 2.5rem;
+  display: grid;
+  gap: 3rem;
+  text-align: center;
+
+  &__explanation {
+    padding: 1.125rem 1.75rem;
+  }
+
+  &__title {
+    margin-block-end: 1.25rem;
+    font-size: 1.75rem;
+  }
+
+  &__description {
+    margin-block-end: 1.125rem;
+  }
+
+  &__actions {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1.125rem 1.75rem;
+  }
+
+  &__img {
+    width: 100%;
+    margin-block-end: 1.125rem;
+  }
+
+  &__action {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    &-title {
+      margin-block-end: 1.25rem;
+    }
+  }
+}

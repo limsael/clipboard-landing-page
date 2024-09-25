@@ -1,0 +1,15 @@
+.accessibility {
+  display: grid;
+  gap: 3rem;
+  text-align: center;
+  padding: 1.125rem 1.75rem;
+  margin-block-start: 0.95rem;
+
+  &__title {
+    margin-block-end: 1.125rem;
+  }
+
+  &__img {
+    width: 100%;
+  }
+}

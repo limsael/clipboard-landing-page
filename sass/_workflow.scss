@@ -1,0 +1,37 @@
+.workflow {
+  padding: 1.125rem 1.75rem;
+  display: grid;
+  gap: 3rem;
+  text-align: center;
+  margin-block-end: 2.95rem;
+
+  &__title {
+    color: $dark-grayish-blue;
+    font-size: 1.75rem;
+    margin-block-end: 1.125rem;
+  }
+
+  &__actions {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  &__descriptions {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  &__action {
+    &-title {
+      margin-block: 2rem 1.25rem;
+    }
+  }
+
+  &__partenaires {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+}
